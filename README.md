@@ -23,9 +23,7 @@ and predicts a patient's risk through a simple web app.
 | `app.py` | Streamlit web app for predicting on new patient input |
 
 ## How to run
-1. `pip install -r requirements.txt`
-2. `python train_model.py` to train and save the model
-3. `streamlit run app.py` to launch the app
+`streamlit run app.py` to launch the app
 
 ## Limitations
 - The dataset is small and has multiple recordings per person, so test results may be optimistic.
